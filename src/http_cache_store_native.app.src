@@ -1,7 +1,7 @@
 {application,
  http_cache_store_native,
  [{description, "A store for http_cache that uses native OTP capabilites"},
-  {vsn, "0.1.0"},
+  {vsn, "0.2.0"},
   {registered, []},
   {mod, {http_cache_store_native_app, []}},
   {applications, [kernel, stdlib, os_mon, telemetry]},
